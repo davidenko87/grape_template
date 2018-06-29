@@ -1,0 +1,14 @@
+development:
+  YWT_SECRET:               'THIS IS THE API KEY'
+  DATABASE_URL:             'postgres://localhost:5432/database_name'
+  <<: *base
+
+test:
+  YWT_SECRET:               'THIS IS THE API KEY'
+  DATABASE_URL:             'postgres://localhost:5432/database_name'
+  <<: *base
+
+production:
+  YWT_SECRET:               'THIS IS THE API KEY'
+  DATABASE_URL:             ''
+  <<: *base
