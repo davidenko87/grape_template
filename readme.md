@@ -1,7 +1,5 @@
 # GrapeTemplate Readme
 
-[![Build Status](https://travis-ci.com/WeTransfer/wallpaper_wizard_backend.svg?token=TvYqzBunqky95yiy5WaA&branch=master)](https://travis-ci.com/WeTransfer/wallpaper_wizard_backend)
-
 ## This is the GrapeTemplate
 
 It runs on Ruby on Grape and is used as an REST API

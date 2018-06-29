@@ -14,7 +14,7 @@ module GrapeTemplate
 
 
       # Mount all the endpoints here
-      mount ::GrapeTemplate::V1::
+      # mount ::GrapeTemplate::V1::base
 
       # Handling the unkown paths
       route :any, '*path' do

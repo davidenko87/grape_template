@@ -21,7 +21,6 @@ module GrapeTemplate
   end
 
   class API < Grape::API
-    extend Config
 
     prefix 'api'
     format :json
